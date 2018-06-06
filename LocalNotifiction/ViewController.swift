@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }()
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad() 
         view.addSubview(button)
         notification.requestNotificationPermission()
     }
